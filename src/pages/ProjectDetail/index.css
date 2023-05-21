@@ -1,0 +1,420 @@
+.projectDetail {
+    background-color: #f5f6f8;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.projectDetail .adm-dot-loading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectDetail > div {
+    position: relative;
+    overflow: hidden;
+}
+
+.projectDetail .topBg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 220px;
+    background: linear-gradient(180deg, #ff5151 0%, #e74949 74%, #f5f6f8 100%);
+}
+
+.projectDetail .bannerList {
+    margin: 12px 16px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bannerList img {
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.bannerList .adm-page-indicator-dot {
+    height: 3px !important;
+}
+
+.projectDetail .videoBox {
+    margin: 12px 16px 0;
+    border-radius: 8px;
+    height: 200px;
+    background: linear-gradient(180deg, #f9f9f9 0%, #d8d8d8 99%);
+    position: relative;
+    overflow: hidden;
+}
+
+.projectDetail .video-react {
+    padding-top: 0 !important;
+    height: 100% !important;
+}
+
+.videoBox .videoDuration {
+    position: absolute;
+    right: 9px;
+    bottom: 7px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: rgba(12, 12, 12, 0.28);
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.projectDetail .projectInfo {
+    margin: 16px 16px 0;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    position: relative;
+}
+
+.projectInfo .signalInfo {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    width: 34px;
+    height: 24px;
+}
+
+.projectInfo .projectName {
+    font-size: 16px;
+    line-height: 22px;
+    color: #121d3a;
+    font-weight: 500;
+}
+
+.projectName img {
+    margin-left: 12px;
+    display: block;
+    width: 68px;
+    height: 18px;
+}
+
+.projectInfo .infoBox {
+    margin-top: 16px;
+    align-items: flex-end;
+}
+
+.infoBox .ratio {
+    font-size: 20px;
+    line-height: 24px;
+    color: #e74949;
+    font-family: DINAlternate-Bold;
+}
+
+.infoBox .infoValue {
+    font-size: 14px;
+    line-height: 20px;
+    color: #121d3a;
+    font-weight: 500;
+}
+
+.infoBox .infoDesc {
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #9aa0b1;
+}
+
+.projectDetail .toolBox {
+    margin-right: 12px;
+    padding: 2px 6px 2px 2px;
+    border-radius: 40px;
+    background-color: #f5f6f8;
+}
+
+.projectDetail .toolBox:last-of-type {
+    margin-right: 0;
+}
+
+.toolBox img {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.toolBox .toolName {
+    margin: 0 4px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #121d3a;
+}
+
+.projectDetail .signalBox {
+    margin: 16px 16px 0;
+    padding: 16px;
+    border-radius: 6px;
+    position: relative;
+    background: linear-gradient(180deg, var(--back-color) 0%, #ffffff 29%, #ffffff 100%);
+    --hairline-width: 2px 1px 1px;
+    --hairline-radius: 6px;
+    --line-num: 2;
+}
+
+.signalBox .signalTag {
+    margin-right: 8px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 500;
+    background-color: var(--hairline-color);
+}
+
+.signalBox .signalName {
+    font-size: 16px;
+    line-height: 22px;
+    color: #4ba471;
+    font-weight: 500;
+}
+
+.projectDetail .signalContent {
+    margin-top: 8px;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #545968;
+    --hairline-width: 0;
+    --hairline-color: #e2e4ea;
+}
+
+.signalBox .signalDate {
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #9aa0b1;
+}
+
+.projectDetail .groupBulletIn {
+    margin: 16px 16px 0;
+    padding: 14px 16px 12px;
+    border-radius: 6px;
+    background-color: #fff;
+    position: relative;
+}
+
+.groupBulletIn .titleIcon {
+    width: 63px;
+    height: 18px;
+}
+
+.groupBulletIn .groupBulletInTitle {
+    font-size: 13px;
+    line-height: 18px;
+    color: #121d3a;
+    font-weight: 500;
+    --line-num: 2;
+}
+
+.groupBulletIn .groupBulletInContent {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #545968;
+    --line-num: 2;
+}
+
+.groupBulletIn .groupBulletInDate {
+    font-size: 11px;
+    line-height: 16px;
+    color: #9aa0b1;
+}
+.groupBulletIn .groupBulletInBtn {
+    padding: 4px 10px 3px;
+    --hairline-width: 1px;
+    --hairline-color: #0051cc;
+    --hairline-radius: 12px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #0051cc;
+}
+
+.projectDetail .partBox {
+    margin: 16px 16px 0;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    position: relative;
+}
+
+.partBox .partTitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: #121d3a;
+    font-weight: 500;
+}
+
+.partBox .partSlogan {
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #545968;
+}
+
+.partBox .partDesc {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #545968;
+}
+
+.partBox .partImage {
+    display: block;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.partBox .patternBox {
+    margin-top: 12px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    position: relative;
+    --hairline-radius: 6px;
+    --hairline-width: 1px;
+    --hairline-color: #e9eaef;
+}
+
+.patternBox .schemaLabel {
+    margin-right: 2px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #9aa0b1;
+}
+
+.patternBox .schemaName {
+    font-size: 13px;
+    line-height: 18px;
+    color: #121d3a;
+    font-weight: 500;
+}
+
+.partBox .legendNum {
+    font-size: 15px;
+    line-height: 21px;
+    color: #121d3a;
+    font-family: DINAlternate-Bold;
+}
+
+.partBox .legendKey {
+    font-size: 11px;
+    line-height: 16px;
+    color: #545968;
+}
+
+.partBox .legendLine {
+    margin-right: 4px;
+    width: 8px;
+    height: 2px;
+}
+
+.partBox .legendShape {
+    margin-right: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.partBox .chartPeriod {
+    padding: 6px 12px;
+    border-radius: 20px;
+    height: 29px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #545968;
+    background-color: #f5f6f8;
+}
+
+.partBox .chartPeriod.active {
+    background-color: #dee8ff;
+    color: #0051cc;
+    font-weight: 500;
+}
+
+.partBox .videoCon {
+    border-radius: 4px;
+    height: 85px;
+    background: linear-gradient(180deg, rgba(231, 231, 231, 0.37) 0%, #dcdcdc 99%);
+    position: relative;
+    overflow: hidden;
+}
+
+.partBox .videoTitle {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #121d3a;
+}
+
+.partBox .videoDuration {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: rgba(12, 12, 12, 0.28);
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.projectDetail .desc {
+    font-size: 12px;
+    line-height: 17px;
+    color: #121d3a;
+}
+
+.partBox .tableBox {
+    margin-top: 12px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.partBox .tableHeader {
+    height: 42px;
+    background-color: #f5f6f8;
+}
+
+.partBox .tableRow {
+    height: 42px;
+    position: relative;
+}
+
+.partBox .tableCell {
+    font-size: 13px;
+    line-height: 18px;
+    color: #121d3a;
+}
+
+.projectDetail .gatherList {
+    margin: 16px 16px 0;
+    padding: 0 16px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.gatherList .gatherItem {
+    padding: 20px 0;
+    --hairline-width: 0;
+    --hairline-color: #e9eaef;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #545968;
+}
+
+.gatherItem .gatherDesc {
+    font-size: 15px;
+    line-height: 21px;
+    color: #121d3a;
+}

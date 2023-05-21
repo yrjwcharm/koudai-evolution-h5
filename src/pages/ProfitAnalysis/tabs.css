@@ -1,0 +1,23 @@
+.adm-tabs-header {
+    background-color: #fff;
+}
+.adm-tabs-tab {
+    /*font-size: var(--title-font-size);*/
+    font-size: 14px;
+    font-family: 'DIN-Regular';
+    font-weight: normal;
+    color: #545968;
+}
+.adm-tabs-tab-active {
+    font-size: 16px;
+    font-family: 'DIN-Medium';
+    color: #121d3a;
+    font-weight: bold;
+}
+.adm-tabs-tab-line {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background: #121d3a;
+    border-radius: 1px;
+}

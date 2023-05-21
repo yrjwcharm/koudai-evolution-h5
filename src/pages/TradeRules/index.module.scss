@@ -1,0 +1,221 @@
+.container {
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #f5f6f8;
+
+    :global {
+        .adm-tabs-content {
+            padding: 0;
+        }
+    }
+
+    .title {
+        padding: 12px 16px;
+        background-color: #fff;
+        font-size: 15px;
+        line-height: 21px;
+        color: #121d3a;
+        font-weight: bold;
+    }
+
+    .line {
+        height: 8px;
+        margin-top: 4px;
+        margin-bottom: 12px;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .buyComfirmTime {
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+        border-color: #e9eaef;
+        border-bottom-width: 1px;
+        display: flex;
+    }
+
+    .buyComfirmTimeText {
+        font-size: 13px;
+        line-height: 22px;
+        color: #0051cc;
+        text-align: justify;
+    }
+
+    .buyNotice {
+        padding-bottom: 16px;
+        display: flex;
+    }
+
+    .blueCircle {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0051cc;
+    }
+
+    .buyNoticeText {
+        font-size: 13px;
+        line-height: 22px;
+        color: #9aa1b2;
+    }
+
+    .feeDescBox {
+        padding: 0 16px;
+        padding-top: 12px;
+        padding-bottom: 16px;
+        background-color: #fff;
+    }
+
+    .feeDesc {
+        font-size: 13px;
+        line-height: 22px;
+        color: #9aa1b2;
+        text-align: justify;
+    }
+
+    .feeHeadTitle {
+        height: 36px;
+        background-color: #f5f6f8;
+        display: flex;
+        padding: 0 16px;
+    }
+
+    .feeTableItem {
+        height: 45px;
+        padding: 0 16px;
+        display: flex;
+        // border-color: #E9EAEF;
+        // border-style: solid;
+    }
+
+    .flexBetween {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .feeHeadTitleText {
+        font-size: 13px;
+        line-height: 18px;
+        color: #9aa1b2;
+    }
+
+    .feeTableLeftText {
+        font-size: 13px;
+        line-height: 18px;
+        color: #121d3a;
+    }
+
+    .feeTableRightText {
+        font-size: 13px;
+        line-height: 18px;
+        color: #ff7d41;
+        font-weight: bold;
+        font-family: DINAlternate-Bold;
+    }
+
+    .productInfoWrap {
+        background-color: #fff;
+        padding: 0 16px;
+        margin-bottom: 10px;
+    }
+
+    .productAdjustWrap {
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .productInfoTitle {
+        padding: 12px 0;
+        color: #121d3a;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .productInfoDesc {
+        color: #9aa1b2;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 14px 0;
+    }
+
+    .productlist {
+        border-top: 1px solid #e9eaef;
+        display: flex;
+        padding: 14px 0;
+    }
+
+    .productInfoNotice {
+        background-color: #f5f6f8;
+        color: #9aa1b2;
+        padding: 12px 10px;
+        margin-top: 10px;
+    }
+
+    .buyTableWrap {
+        border-color: #e9eaef;
+        border-width: 1px;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .buyTableHead {
+        display: flex;
+        height: 43px;
+        background-color: #f5f6f8;
+    }
+
+    .buyTableCell {
+        padding: 0 6px;
+        height: 100%;
+        border-right-width: 1px;
+        border-color: #e9eaef;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buyTableItem {
+        flex: 1;
+        text-align: center;
+        font-size: 12px;
+        line-height: 17px;
+        color: #121d3a;
+    }
+
+    .fontColor {
+        color: #121d3a;
+        font-weight: bold;
+    }
+
+    .buyTableBody {
+        display: flex;
+        height: 40px;
+    }
+
+    .banklistWrap {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-bottom: 1px solid #e9eaef;
+        background-color: #fff;
+        padding-left: 20px;
+    }
+
+    .banklistItem {
+        display: flex;
+        padding: 0 14px;
+        flex: 1;
+    }
+}
+
+.beforeMask {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

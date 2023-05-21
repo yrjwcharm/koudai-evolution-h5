@@ -1,0 +1,265 @@
+.container {
+    background-color: #f5f6f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .uploadIdTip {
+        display: block;
+        width: calc(100% - 32px);
+        margin: 16px;
+    }
+
+    .content {
+        flex: 1;
+        overflow: auto;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+
+        .stepImg {
+            display: block;
+            width: 100%;
+            margin: 24px 0;
+        }
+
+        .title {
+            font-size: 14px;
+            line-height: 20px;
+            color: #121d3a;
+        }
+
+        .desc {
+            font-size: 12px;
+            line-height: 17px;
+            color: #121d3a;
+        }
+
+        .card {
+            padding: 0 16px;
+            border-radius: 6px;
+            background-color: #fff;
+
+            .cardHeader {
+                padding: 12px 0;
+                --hairline-width: 0;
+                --hairline-color: #e9eaef;
+
+                .personalMes,
+                .cardMes {
+                    margin-right: 6px;
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+
+            .idImage {
+                border-radius: 6px;
+                width: 148px;
+                height: 130px;
+                background-color: #f5f6f8;
+            }
+
+            .inputBox {
+                margin-top: 24px;
+
+                :global(.adm-passcode-input) {
+                    width: 100%;
+                }
+
+                :global(.adm-passcode-input-cell-container) {
+                    width: 100%;
+                    justify-content: space-between;
+                }
+
+                :global(.adm-passcode-input-cell) {
+                    border: 0;
+                    width: 35px;
+                    background-color: #f5f6f8;
+                    box-shadow: none;
+                }
+            }
+
+            .resetText {
+                margin-top: 20px;
+                margin-bottom: 16px;
+                font-size: 12px;
+                line-height: 17px;
+                color: #0051cc;
+                text-align: center;
+            }
+        }
+    }
+
+    .form {
+        :global(.adm-list-body) {
+            border: 0;
+        }
+
+        :global(.adm-list-item) {
+            padding-left: 0;
+        }
+
+        :global(.adm-list-item-content) {
+            padding: 16px 0;
+        }
+
+        :global(.adm-list-item-content-prefix) {
+            display: flex;
+            align-items: center;
+            width: 25%;
+            padding: 0 16px 0 0;
+        }
+
+        :global(.adm-list-item-content-main) {
+            padding: 0;
+        }
+
+        :global(.adm-form-item-label) {
+            font-size: 14px;
+            line-height: 20px;
+            color: #545968;
+            height: auto;
+        }
+
+        :global(.adm-input) {
+            min-height: auto;
+            --font-size: 14px;
+            --color: #121d3a;
+            --placeholder-color: #bdc2cc;
+        }
+
+        :global(.adm-form-item-child-inner),
+        :global(.adm-input-element) {
+            font-size: 14px;
+            color: #121d3a;
+            line-height: 20px;
+            font-family: DINAlternate-Bold;
+            min-height: auto;
+        }
+
+        :global(.adm-list-item-content-arrow) {
+            font-size: 12px;
+            color: #9aa1b2;
+        }
+
+        .sendCode {
+            font-size: 14px;
+            line-height: 20px;
+            color: #0051cc;
+        }
+    }
+
+    .agreement {
+        margin-top: 12px;
+        display: flex;
+
+        .circle {
+            margin-top: 2px;
+            border-radius: 100%;
+            border: 0 solid #9aa1b2;
+            width: 15px;
+            height: 15px;
+        }
+
+        .agreementText {
+            flex: 1;
+            font-size: 11px;
+            line-height: 16px;
+            color: #545968;
+            text-align: justify;
+        }
+    }
+
+    .fixedBtnContainer {
+        padding: 8px 16px;
+        background-color: #fff;
+
+        .fixedBtn {
+            background-color: #0051cc;
+            border: 0;
+            border-radius: 6px;
+            height: 45px;
+            font-size: 16px;
+            line-height: 22px;
+            color: #fff;
+        }
+    }
+}
+
+.modalContainer {
+    :global(.adm-modal-body) {
+        width: 280px;
+        padding-top: 0;
+        max-height: none;
+
+        :global(.adm-modal-content) {
+            padding: 20px;
+            max-height: none;
+        }
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 25px;
+        color: #121d3a;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .msg {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #545968;
+    }
+
+    .inputWrapper {
+        display: flex;
+        height: 44px;
+        background-color: #f5f6f8;
+        border-radius: 6px;
+        overflow: hidden;
+
+        :global(.adm-input) {
+            height: 100%;
+            padding-left: 12px;
+            --font-size: 14px;
+            --color: #121d3a;
+            flex: 1;
+        }
+
+        .sendCode {
+            width: 94px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            line-height: 20px;
+            color: #fff;
+            font-weight: 500;
+        }
+    }
+
+    .cannotGetCode {
+        margin-top: 12px;
+        font-size: 12px;
+        line-height: 17px;
+        color: #0051cc;
+        text-align: right;
+    }
+
+    .submit {
+        margin-top: 16px;
+        border-radius: 6px;
+        background-color: #0051cc;
+        height: 44px;
+        font-size: 15px;
+        line-height: 21px;
+        color: #fff;
+    }
+
+    :global(.adm-modal-footer-empty) {
+        height: 0;
+    }
+}

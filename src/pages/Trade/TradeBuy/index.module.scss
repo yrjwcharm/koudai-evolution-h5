@@ -1,0 +1,364 @@
+.container {
+    background-color: #f5f6f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .content {
+        flex: 1;
+        overflow: auto;
+    }
+
+    .fixIcon {
+        margin: 20px;
+        display: block;
+        width: calc(100% - 40px);
+    }
+
+    .productTitle {
+        padding: 12px 16px;
+        font-size: 13px;
+        line-height: 18px;
+        color: #545968;
+    }
+
+    .inputPart {
+        padding: 16px 16px 0;
+        background-color: #fff;
+
+        .buyInfoTitle {
+            font-size: 16px;
+            line-height: 22px;
+            color: #121d3a;
+        }
+
+        .inputBox {
+            padding: 20px 0 12px;
+
+            .unit {
+                font-size: 26px;
+                line-height: 36px;
+                color: #121d3a;
+                font-family: DINAlternate-Bold;
+            }
+
+            .input {
+                margin-left: 14px;
+                flex: 1;
+
+                :global(input) {
+                    font-size: 35px;
+                    color: #121d3a;
+                    font-family: var(--font-family);
+                    letter-spacing: 2px;
+                }
+            }
+        }
+
+        .tipsSty {
+            padding: 8px 0;
+            --hairline-width: 0;
+            --hairline-color: #e9eaef;
+            font-size: 12px;
+            color: #9aa0b1;
+
+            .redTag {
+                background-color: #e74949;
+                margin-left: 4px;
+                padding: 2px 5px;
+                border-radius: 10px 10px 10px 0;
+                font-size: 11px;
+                line-height: 16px;
+                color: #fff;
+            }
+        }
+    }
+
+    .methodsBox {
+        margin-top: 12px;
+        background-color: #fff;
+        overflow: hidden;
+
+        .payMethod {
+            padding: 12px 16px;
+            --hairline-width: 0;
+            --hairline-color: #e9eaef;
+
+            .bankIcon {
+                margin-right: 8px;
+                width: 28px;
+                height: 28px;
+            }
+
+            .bankName {
+                font-size: 14px;
+                line-height: 20px;
+                color: #121d3a;
+            }
+
+            .limitDesc {
+                margin-top: 6px;
+                font-size: 12px;
+                line-height: 17px;
+                color: #9aa0b1;
+            }
+
+            .autoChargeHint {
+                padding: 0 16px 12px;
+                background-color: #fff;
+                font-size: 13px;
+                line-height: 20px;
+                color: #e74949;
+            }
+
+            .useBtn {
+                padding: 5px 8px;
+                --border-color: #eb7121;
+                font-size: 12px;
+                line-height: 17px;
+                color: #eb7121;
+            }
+        }
+
+        .largePayTip {
+            margin: 0 16px 20px;
+            padding: 6px;
+            border-radius: 4px;
+            background-color: #fff5e5;
+            font-size: 12px;
+            line-height: 18px;
+            color: #eb7121;
+
+            .fire {
+                margin-right: 3px;
+                width: 14px;
+                height: 14px;
+            }
+        }
+    }
+
+    .assetsDetail {
+        margin-top: 12px;
+        background-color: #fff;
+
+        :global(.adm-list-body) {
+            border: 0;
+
+            :global(.adm-list-item) {
+                padding-left: 0;
+
+                :global(.adm-list-item-content) {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        :global(.adm-plain-anchor) {
+            padding: 0 16px !important;
+
+            :global(.adm-list-item-content) {
+                border: 0;
+            }
+
+            :global(.adm-collapse-arrow) {
+                font-size: 14px;
+                color: #9aa0b1;
+            }
+        }
+
+        :global(.adm-collapse-panel-content .adm-list-item-content-main) {
+            padding: 0;
+        }
+
+        .circle {
+            margin-right: 6px;
+            border-radius: 100%;
+            width: 8px;
+            height: 8px;
+            background-color: #e74949;
+        }
+
+        .assetsTitle {
+            font-size: 12px;
+            line-height: 17px;
+            color: #9aa1b2;
+            text-align: center;
+        }
+
+        .fundText {
+            font-size: 12px;
+            line-height: 17px;
+            color: #545968;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .autoInvestDate {
+        margin-top: 12px;
+        padding: 12px 16px;
+        background-color: #fff;
+
+        .autoTitle {
+            font-size: 16px;
+            line-height: 22px;
+            color: #121d3a;
+        }
+
+        .nextday {
+            margin-top: 8px;
+            font-size: 12px;
+            line-height: 17px;
+            color: #9aa1b2;
+        }
+    }
+
+    .autoChargeBox {
+        margin-top: 12px;
+        padding: 0 16px;
+        background-color: #fff;
+
+        .autoChargePanel {
+            padding: 14px 0;
+            --hairline-width: 0;
+            --hairline-color: #e9eaef;
+
+            .autoChargeTitle {
+                font-size: 16px;
+                line-height: 22px;
+                color: #121d3a;
+            }
+
+            .autoChargeLabel {
+                padding: 1px 6px;
+                border-radius: 9px 9px 9px 0;
+                background-color: #e74949;
+                position: absolute;
+                top: -4px;
+                right: -35px;
+                font-size: 11px;
+                line-height: 16px;
+                color: #fff;
+                font-weight: 500;
+            }
+
+            :global(.adm-switch-checkbox:before) {
+                background-color: #ccd0db;
+            }
+        }
+
+        .autoChargeDesc {
+            padding: 12px 0 16px;
+            font-size: 13px;
+            line-height: 20px;
+            color: #545968;
+
+            .autoChargeDetail {
+                font-size: 12px;
+                line-height: 17px;
+                color: #0051cc;
+                position: absolute;
+                right: 0;
+                bottom: 16px;
+            }
+        }
+
+        .autoChargeOpenHint {
+            padding: 7px 0;
+            --hairline-width: 0;
+            --hairline-color: #e9eaef;
+            font-size: 13px;
+            line-height: 20px;
+            color: #e74949;
+        }
+    }
+
+    .autoChargeDeduction {
+        margin-top: 12px;
+        padding: 0 16px;
+        font-size: 12px;
+        line-height: 17px;
+        color: #9aa0b1;
+    }
+
+    .tips {
+        font-size: 12px;
+        line-height: 17px;
+        color: #9aa1b2;
+    }
+
+    .footerText {
+        margin-bottom: 20px;
+        padding: 0 16px;
+        font-size: 11px;
+        line-height: 16px;
+        color: #9aa0b1;
+    }
+
+    .riskDisclosure {
+        :global(.adm-dialog-body) {
+            max-height: none;
+
+            :global(.adm-dialog-content) {
+                max-height: none;
+                padding: 0 20px;
+            }
+        }
+
+        .title {
+            font-size: 16px;
+            line-height: 22px;
+            color: #121d3a;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .subTitle {
+            margin-top: 2px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #e74949;
+            text-align: center;
+        }
+
+        .content {
+            margin: 16px 0;
+            max-height: 352px;
+            font-size: 13px;
+            line-height: 22px;
+            color: #545968;
+        }
+    }
+}
+
+.fixedBtnContainer {
+    padding: 8px 16px;
+    background-color: #fff;
+
+    .fixedBtn {
+        background-color: #0051cc;
+        border: 0;
+        border-radius: 6px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #fff;
+    }
+
+    .agreementBox {
+        display: flex;
+        padding: 4px 0 16px;
+        font-size: 11px;
+        line-height: 16px;
+        color: #545968;
+        text-align: justify;
+
+        .checkbox {
+            --icon-size: 15px;
+            --adm-color-primary: #0051cc;
+            margin: 1px 0px 0 0;
+            align-items: flex-start;
+        }
+    }
+}

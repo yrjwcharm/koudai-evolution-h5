@@ -1,0 +1,328 @@
+.container {
+    background-color: #f5f6f8;
+    height: 100vh;
+    overflow-y: auto;
+
+    .topBg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 135px;
+        background: linear-gradient(180deg, #1e5ae7 33%, #f5f6f8 100%);
+    }
+
+    .btnContainer {
+        padding: 12px 16px;
+        padding-bottom: calc(12px + constant(safe-area-inset-bottom));
+        padding-bottom: calc(12px + env(safe-area-inset-bottom));
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .holdingInfo {
+        margin-top: 8px;
+        border-radius: 6px;
+        background-color: #fff;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+    }
+
+    .holdingBg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 30px;
+        background: linear-gradient(180deg, #ecf4ff 0%, #fff 100%);
+    }
+
+    .flexBetween {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flexRow {
+        display: flex;
+        align-items: center;
+    }
+
+    .tag {
+        padding-left: 6px;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 2px;
+        height: 20px;
+    }
+
+    .flexCenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flexRowCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desc {
+        font-size: 12px;
+        line-height: 17px;
+        color: #545968;
+    }
+
+    .smNumber {
+        font-size: 15px;
+        line-height: 21px;
+        color: #121d3a;
+        font-family: DINAlternate-Bold;
+    }
+
+    .bigNumber {
+        font-size: 26px;
+        line-height: 36px;
+        color: #121d3a;
+        font-family: DINAlternate-Bold;
+    }
+
+    .divider {
+        border-top: 1px solid #e9eaef;
+    }
+
+    .introContentBox {
+        margin-top: 8px;
+        padding: 12px;
+        border-radius: 4px;
+        background-color: #f5f6f8;
+    }
+
+    .introContent {
+        font-size: 12px;
+        line-height: 19px;
+        color: #545968;
+    }
+
+    .bigTitle {
+        font-size: 16px;
+        line-height: 22px;
+        color: #121d3a;
+        font-weight: bold;
+    }
+
+    .title {
+        font-size: 14px;
+        line-height: 20px;
+        color: #121d3a;
+        font-weight: bold;
+    }
+
+    .subTitle {
+        font-size: 13px;
+        line-height: 18px;
+        color: #121d3a;
+        font-weight: bold;
+    }
+
+    .aboutAutoCharge {
+        width: 13px;
+        height: 13px;
+    }
+
+    .autoChargeBox {
+        margin-top: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 6px;
+        background-color: #fff;
+    }
+
+    .openCard {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 12px;
+        width: 166px;
+    }
+
+    .subTitleIcon {
+        margin-right: 4px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .subTitle {
+        font-size: 13px;
+        line-height: 18px;
+        color: #121d3a;
+        font-weight: bold;
+    }
+
+    .amountBox {
+        padding: 3px 6px;
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: #0051cc;
+        position: relative;
+    }
+
+    .amountText {
+        font-size: 12px;
+        line-height: 14px;
+        color: #0051cc;
+        font-weight: bold;
+    }
+
+    .mfbArrow {
+        margin-top: -1px;
+        width: 8px;
+        height: 10px;
+    }
+
+    .percentBar {
+        border-radius: 1px;
+        height: 6px;
+        position: relative;
+        background-color: #d6d8e1;
+        overflow: hidden;
+    }
+
+    .activeBar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #1e5ae7;
+    }
+
+    .smallText {
+        font-size: 11px;
+        line-height: 16px;
+        color: #545968;
+    }
+
+    .button {
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: #0051cc;
+        flex: 1;
+        height: 40px;
+    }
+
+    .buttonText {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .toolItem {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top: 1px solid #e9eaef;
+    }
+
+    .openToolBtn {
+        padding: 5px 14px;
+        border-radius: 20px;
+        background-color: #0051cc;
+    }
+
+    .popHeader {
+        padding: 16px 0;
+        min-height: 43px;
+        border-bottom: 1px solid #e2e4ea;
+
+        .poptitle {
+            font-size: 16px;
+            color: #121d3a;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .popClose {
+            position: absolute;
+            left: 0;
+            margin-left: 10px;
+        }
+    }
+
+    .tipsVal {
+        font-size: 13px;
+        line-height: 18px;
+        color: #121d3a;
+    }
+
+    .card {
+        margin-top: 12px;
+        padding-top: 16px;
+        border-radius: 6px;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+    .date {
+        font-size: 12px;
+        line-height: 17px;
+        font-family: DIN-Regular;
+        color: #9aa0b1;
+    }
+
+    .light_text {
+        font-size: 12px;
+        line-height: 17px;
+        color: #9aa0b1;
+        margin-bottom: 3px;
+    }
+
+    .num_text {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .notice {
+        border-top: 1px solid #e9eaef;
+    }
+
+    .notice_text {
+        font-size: 12px;
+        line-height: 36px;
+        color: #9aa0b1;
+        height: 36px;
+    }
+
+    .errorMsgBox {
+        padding: 12px 16px;
+        background-color: rgba(231, 73, 73, 0.1);
+    }
+
+    .errorMsg {
+        font-size: 12px;
+        line-height: 17px;
+        color: #e74949;
+    }
+
+    .tradeRecordsHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .tabsContainer {
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .topBtnText {
+        font-size: 13px;
+        color: #0051cc;
+        font-weight: bold;
+    }
+}

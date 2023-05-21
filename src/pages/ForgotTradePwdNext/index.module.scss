@@ -1,0 +1,35 @@
+.container {
+    height: 100vh;
+    background-color: #f5f6f8;
+}
+
+.desc {
+    font-size: 12px;
+    line-height: 17px;
+    color: #545968;
+}
+
+.input {
+    margin-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.inputRightText {
+    font-size: 14px;
+    line-height: 20px;
+    color: #0051cc;
+}
+
+.btn {
+    margin-top: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #0051cc;
+    height: 45px;
+    border-radius: 6px;
+    width: 335px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}

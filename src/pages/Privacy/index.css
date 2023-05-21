@@ -1,0 +1,13 @@
+.privacy_con {
+    padding: 16px;
+    overflow-y: auto;
+    padding-top: 0;
+    background-color: #fff;
+}
+.privacy_con p {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.privacy_con table {
+    font-size: 10px;
+}

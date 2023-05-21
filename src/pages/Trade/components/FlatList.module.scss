@@ -1,0 +1,43 @@
+.FlatList .list {
+    --padding-left: 0;
+    --padding-right: 0;
+    --border-inner: none;
+}
+
+.FlatList :global(.adm-list-body) {
+    background-color: transparent;
+}
+
+.FlatList :global(.adm-list-item-content-main) {
+    padding: 0;
+}
+
+.listFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0;
+    margin-top: 16;
+}
+
+.listFooter .tip {
+    color: #9aa1b2;
+    // margin-top: 16;
+}
+
+.retryLoadBox {
+    width: 100vw;
+    height: 100vh;
+    height: calc(100vh - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retryLoadEndBox {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

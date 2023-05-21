@@ -1,0 +1,204 @@
+.IndexDetail {
+    background-color: #f5f6f8;
+
+    .indexData {
+        padding: 16px 0;
+        padding-bottom: 10px;
+        background-color: #fff;
+
+        .indexDataMain {
+            display: flex;
+            align-items: center;
+        }
+
+        .indexDataFooter {
+            padding: 0 16px;
+            text-align: right;
+        }
+
+        .indexDataFooterText {
+            font-size: 11px;
+            color: #bdc2cc;
+            line-height: 15px;
+        }
+    }
+
+    :global(a.adm-calendar-arrow-button) {
+        padding: 0 !important;
+        margin: 4px 8px !important;
+    }
+
+    :global {
+        .adm-calendar-title,
+        .adm-calendar-cell-top {
+            font-size: 16px !important;
+        }
+    }
+}
+
+.indexDataLeft {
+    width: 122px;
+}
+
+.indexDataLeftTop {
+    font-size: 26px;
+    font-family: DIN Alternate-Bold, DIN Alternate;
+    color: #4ba471;
+    line-height: 30px;
+    text-align: center;
+}
+
+.indexDataLeftBottom {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indexDataLeftBottomLeft,
+.indexDataLeftBottomRight {
+    font-size: 14px;
+    font-family: DIN Alternate-Bold, DIN Alternate;
+    color: #4ba471;
+    line-height: 20px;
+}
+
+.indexDataLeftBottomRight {
+    margin-left: 9px;
+}
+
+.indexDataMiddle {
+    width: 206px;
+}
+
+.indexDataMiddleRow {
+    display: flex;
+    align-items: center;
+}
+
+.indexDataMiddleCell {
+    display: flex;
+    align-items: center;
+}
+
+.indexDataMiddleCellTitle {
+    width: 36px;
+    font-size: 12px;
+    color: #545968;
+    line-height: 17px;
+}
+
+.indexDataMiddleCellNum {
+    font-size: 14px;
+    font-family: DIN Alternate-Bold, DIN Alternate;
+    color: #121d3a;
+    line-height: 20px;
+    width: 67px;
+}
+
+.indexDataRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.indexDataIcon {
+    width: 47px;
+    height: 35px;
+}
+
+.IndexDetailTabsWrap {
+    padding: 0 16px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.IndexDetailTabItem {
+    font-size: 14px;
+    color: #121d3a;
+    line-height: 22px;
+}
+
+.IndexDetailCard {
+    margin: 0 16px;
+    margin-top: 8px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.IndexDetailTabBtnWrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.IndexDetailTabBtn {
+    border-radius: 20px;
+    padding: 6px 12px;
+    white-space: nowrap;
+}
+
+.historySignal {
+    margin-top: 28px;
+}
+
+.historySignalTitle {
+    font-size: 16px;
+    color: #121d3a;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.IndexDetail .adm-calendar .adm-calendar-header a.adm-calendar-arrow-button svg {
+    height: 15px;
+    color: #545968;
+}
+
+.IndexDetail .adm-calendar-cell {
+    height: 42px;
+}
+
+.IndexDetailCardBtn {
+    border-top: 1px solid #e2e4ea;
+    padding-top: 16px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+    color: #0051cc;
+    line-height: 17px;
+}
+
+.calendarLegend {
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendarLegendItem {
+    margin: 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+.calendarLegendItemIcon {
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+}
+
+.calendarLegendItemText {
+    font-size: 12px;
+    color: #545968;
+    line-height: 17px;
+}
+
+.bottomLine {
+    width: 14px;
+    height: 2px;
+    background-color: #121d3a;
+    margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+.activityPageContainer {
+    background-color: #e4d3ba;
+    overflow: auto;
+    height: 100%;
+}
+
+.activityPageContainer img {
+    display: block;
+    width: 100%;
+}
+
+.activityPageContainer .title {
+    font-size: 28px;
+    color: #292d39;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -166px;
+    margin-bottom: 64px;
+}
+
+.activityPageContainer .call {
+    font-size: 15px;
+    color: #292d39;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+
+.activityPageContainer .contentBox {
+    margin: 0 16px;
+    padding: 0 24px 32px;
+    border-radius: 0 0 12px 12px;
+    background-color: #fff;
+    white-space: pre-wrap;
+    font-size: 13px;
+    line-height: 24px;
+    color: #292d39;
+    text-align: justify;
+    text-align-last: left;
+    font-weight: 300;
+}
+
+.activityPageContainer .greet {
+    font-size: 15px;
+    color: #292d39;
+    text-align: right;
+    text-align-last: right;
+    white-space: pre-wrap;
+    padding-right: 4px;
+}

@@ -1,0 +1,167 @@
+@mixin bottom_line($color: #e9eaef, $style: solid) {
+    position: relative;
+    &:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        content: '';
+        border-top: 1px $style $color;
+        -webkit-transform: scale(0.5);
+        transform: scaleY(0.5);
+    }
+}
+.container {
+    height: 100%;
+    background: #f5f6f8;
+    padding-top: 12px;
+
+    .list_row {
+        display: flex;
+        background: #fff;
+        flex-direction: column;
+        height: 65px;
+        padding-left: 16px;
+        padding-right: 16px;
+        justify-content: center;
+        @include bottom_line();
+
+        .list_row_wrap {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .left {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .title {
+                font-size: 14px;
+                font-family: 'PingFang Regular';
+                font-weight: 400;
+                color: #545968;
+            }
+
+            .right_wrap {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .decrease {
+                    width: 20px;
+                }
+
+                .money {
+                    margin-left: 32px;
+                    margin-right: 32px;
+                    font-size: 20px;
+                    font-family: DINAlternate-Bold, DINAlternate;
+                    font-weight: bold;
+                    color: #292d39;
+                }
+
+                .cycle {
+                    margin-right: 8px;
+                    font-size: 16px;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #121d3a;
+                }
+
+                .add {
+                    width: 20px;
+                }
+            }
+        }
+    }
+    //:global {
+    //    .adm-mask-content {
+    //        z-index: 1;
+    //        height: 100%;
+    //        /* position: fixed; */
+    //    }
+    //}
+}
+.popup_content {
+    display: flex;
+    flex-direction: column;
+    .input_wrap {
+        display: flex;
+        margin-top: 24px;
+        flex-direction: column;
+        height: 42px;
+        margin-left: 12px;
+        margin-right: 12px;
+        justify-content: center;
+        @include bottom_line();
+
+        .input_money {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .price {
+                font-size: 26px;
+                font-family: 'DINAlternate-Bold';
+            }
+
+            .input {
+                flex: 1;
+                font-size: 35px;
+                line-height: 42px;
+                height: 42px;
+                margin-left: 14px;
+                padding: 0;
+                font-family: 'DIN-Medium';
+            }
+
+            .placeholder {
+            }
+        }
+    }
+}
+.popup_header {
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    @include bottom_line();
+
+    .popup_wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .close {
+            width: 24px;
+            height: 24px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #121d3a;
+            font-weight: 500;
+        }
+
+        .confirm_text {
+            font-size: 14px;
+            color: #0051cc;
+        }
+    }
+}
+/* 关键样式 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+:global .adm-mask-content {
+    z-index: 1;
+    height: 100%;
+}

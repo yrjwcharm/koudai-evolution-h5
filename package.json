@@ -1,0 +1,96 @@
+{
+  "name": "koudai-evolution-h5",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@antv/f2": "^3.7.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd-mobile": "^5.27.0",
+    "antd-mobile-icons": "^0.3.0",
+    "antd-mobile-v2": "^2.3.4",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.2",
+    "copy-to-clipboard": "^3.3.3",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.4",
+    "echarts": "^5.3.1",
+    "highcharts": "^9.0.1",
+    "highcharts-react-official": "^3.0.0",
+    "html-react-parser": "^1.2.8",
+    "lodash": "^4.17.21",
+    "postcss-px2rem": "^0.3.0",
+    "react": "^17.0.1",
+    "react-activation": "^0.12.2",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "^17.0.1",
+    "react-lazyload": "^3.2.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "^0.18.10",
+    "react-redux": "^7.2.5",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slider": "^1.1.4",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.54.0",
+    "video-react": "^0.14.1",
+    "web-vitals": "^1.0.1",
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "start": "cross-env NODE_ENV=development react-app-rewired start",
+    "build": "cross-env GENERATE_SOURCEMAP=false NODE_ENV=production react-app-rewired build",
+    "test": "cross-env NODE_ENV=test react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx ./src",
+    "fix": "yarn format && yarn lint:fix",
+    "format": "prettier --write 'src/**/*.{js,jsx,css,scss}'",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx}'"
+  },
+  "browserslist": {
+    "production": [
+      ">0.02%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.02%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^5.1.2",
+    "customize-cra": "^1.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "react-app-rewired": "^2.1.8",
+    "react-error-overlay": "6.0.9",
+    "redux-logger": "^3.0.6",
+    "style-loader": "^2.0.0"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx}": "eslint --fix",
+    "**/*.{js,jsx,css,scss}": [
+      "prettier --write"
+    ]
+  },
+  "theme": {
+    "brand-primary": "#0051CC"
+  }
+}

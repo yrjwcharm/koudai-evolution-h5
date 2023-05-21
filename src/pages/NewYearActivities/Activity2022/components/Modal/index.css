@@ -1,0 +1,24 @@
+.modalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    background: linear-gradient(181deg, #f55646 0%, #bd1b1b 100%);
+    border: 2px solid rgba(255, 226, 176, 1);
+    padding: 0 20px;
+}
+.backgroundIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.modalContainer .closeIcon {
+    position: absolute;
+    right: 15px;
+    top: -30px;
+    width: 19px;
+}

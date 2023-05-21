@@ -1,0 +1,7 @@
+.appointmentBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    width: 60px;
+    z-index: 33;
+}

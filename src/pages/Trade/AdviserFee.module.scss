@@ -1,0 +1,96 @@
+.container {
+    flex: 1;
+    background-color: #f5f6f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.topPart {
+    padding-top: 34px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.label {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9aa0b1;
+    text-align: center;
+}
+
+.bigFee {
+    margin-top: 6px;
+    font-size: 35px;
+    line-height: 41px;
+    color: #121d3a;
+    font-family: DINAlternate-Bold;
+    text-align: center;
+}
+
+.smallFee {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #121d3a;
+    font-family: DINAlternate-Bold;
+    text-align: center;
+}
+
+.feeIntro {
+    margin-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #fff;
+}
+
+.feeIntroText {
+    font-size: 14px;
+    line-height: 20px;
+    color: #121d3a;
+    font-weight: bold;
+}
+
+.tag {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background-color: #f0f6fd;
+    font-size: 12px;
+    color: #0051cc;
+}
+
+.card {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.radio_sty {
+    color: #9aa1b2;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.tipTitle {
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,20 @@
+.radio_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #9095a5;
+}
+
+.flexRowCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio_fill {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #0051cc;
+}

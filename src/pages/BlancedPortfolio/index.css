@@ -1,0 +1,129 @@
+.blancedPortfolio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff8745;
+}
+
+.blancedPortfolio .adm-dot-loading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blancedPortfolio .content {
+    flex: 1;
+    overflow: auto;
+    position: relative;
+}
+
+.blancedPortfolio .content > img {
+    display: block;
+    width: 100%;
+}
+.blancedPortfolio .flexCenter > img {
+    display: block;
+    width: 100%;
+}
+
+.blancedPortfolio .content .timePosition {
+    position: absolute;
+    top: 166px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.blancedPortfolio .rangeTime {
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.blancedPortfolio .countdownBox {
+    max-width: max-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.85);
+    opacity: 0.9;
+    border-image: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 1)
+        )
+        1 1;
+    font-size: 11px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.blancedPortfolio .countdownBox .countdownNumBox {
+    margin: 0 4px;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: #e74949;
+    line-height: 12px;
+    color: #fff;
+    font-family: DINAlternate-Bold;
+}
+
+.blancedPortfolio .content .videoContainer {
+    margin: 0 16px;
+    padding: 16px 16px 16px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.74) 0%, #fefefe 13%, #ffffff 100%);
+    box-shadow: 0px 2px 10px 0px #10176d;
+    border: 1px solid #ffffff;
+}
+
+.blancedPortfolio .videoContainer .title > img {
+    width: 18px;
+    height: 9px;
+}
+
+.blancedPortfolio .videoContainer .title > span {
+    margin: 0 0px;
+    font-size: 18px;
+    line-height: 25px;
+    /*color: #0A0A0A;*/
+    font-weight: 600;
+}
+
+.videoContainer .video-react {
+    margin-top: 0px;
+    border-radius: 6px;
+    overflow: hidden;
+    /*padding-top: 0 !important;*/
+    /*height: 350px;*/
+}
+
+.blancedPortfolio .content .tips {
+    margin: 10px 20px 20px;
+    font-size: 10px;
+    line-height: 14px;
+    color: #fff;
+    text-align: justify;
+    opacity: 0.48;
+}
+
+.blancedPortfolio .btnBox {
+    padding: 8px 16px;
+    padding-bottom: calc(8px + constant(safe-area-inset-bottom));
+    padding-bottom: calc(8px + env(safe-area-inset-bottom));
+    background-color: #fff;
+}
+
+.btnBox > button {
+    height: 44px;
+    border-radius: 6px;
+    border-color: #e74949;
+    background-color: #e74949;
+    font-size: 15px;
+    line-height: 21px;
+}

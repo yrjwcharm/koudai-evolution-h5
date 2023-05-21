@@ -1,0 +1,10 @@
+.knowLCMFContainer {
+    background-color: #f5f6f8;
+    height: 100%;
+    overflow: auto;
+}
+
+.knowLCMFContainer img {
+    display: block;
+    width: 100%;
+}

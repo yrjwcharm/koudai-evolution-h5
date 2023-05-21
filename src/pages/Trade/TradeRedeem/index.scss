@@ -1,0 +1,61 @@
+#TradeRedeem {
+    background-color: #f5f6f8;
+
+    .title {
+        padding: 12px 0 12px 16px;
+        color: '#545968';
+        font-size: 13px;
+    }
+
+    .pay_methods {
+        height: 55px;
+        border-bottom: 0.5px solid #dddddd;
+        color: #4e556c;
+        font-size: 14px;
+    }
+
+    .btn_percent {
+        border-radius: 12px;
+        background-color: #f1f6ff;
+        padding: 4px 9px;
+        font-size: 12px;
+        color: #0051cc;
+        margin-right: 10px;
+    }
+
+    .inputRe {
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+        height: 40px;
+        padding: 22px 0 12px 0;
+        box-sizing: content-box;
+        font-family: DIN Alternate-Bold, DIN Alternate;
+        flex: 1;
+    }
+
+    .percentIcon {
+        font-size: 24px;
+        font-family: DIN-Bold, DIN;
+        font-weight: bold;
+        color: #333333;
+        position: absolute;
+        right: 0;
+        top: 34px;
+    }
+
+    .holdFund {
+        background-color: #fff;
+        margin-top: 12px;
+        padding: 0 16px;
+    }
+
+    .holdFundHeader {
+        height: 50px;
+    }
+
+    // .holdFundText {
+    //     width: 80px;
+    //     color:#9095A5;
+    // }
+}

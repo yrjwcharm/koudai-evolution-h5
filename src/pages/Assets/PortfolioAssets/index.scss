@@ -1,0 +1,212 @@
+#PortfolioAssets {
+    background-color: #f5f6f8;
+    padding: 16px;
+
+    .card {
+        padding: 16px;
+        background-color: #fff;
+        box-shadow: 0px 4px 10px 0px rgba(170, 170, 170, 0.102);
+        border-radius: 6px;
+
+        // border-top: 2px solid #545968;
+    }
+
+    .adjustCard {
+        border-top: 2px solid #0051cc;
+        background-color: #f1f6ff;
+    }
+
+    .defaultCard {
+        border-top: 2px solid #545968;
+    }
+
+    .name {
+        font-size: 15px;
+        font-weight: 500;
+        color: #121d3a;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    .amount {
+        font-size: 22px;
+        font-family: DIN Alternate-Bold, DIN Alternate;
+        font-weight: bold;
+        color: #121d3a;
+        line-height: 26px;
+    }
+
+    .line {
+        height: 0.5px;
+        width: '100%';
+        background-color: #e9eaef;
+        margin: 12px 0;
+    }
+
+    .tag {
+        height: 17px;
+        background: #ffffff;
+        border-radius: 2px 2px 2px 2px;
+        opacity: 1;
+        border: 1px solid #bdc2cc;
+        padding: 0 4px;
+        text-align: center;
+        line-height: 17px;
+        font-size: 9px;
+        margin-right: 3px;
+    }
+
+    .expandBox {
+        margin-top: 11px;
+        background: #f5f6f8;
+        border-radius: 4px 4px 4px 4px;
+        padding: 12px;
+    }
+
+    .consoleTitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: #121d3a;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+
+    .consoleContent {
+        font-size: 12px;
+        font-weight: 400;
+        color: #545968;
+        line-height: 17px;
+        background-color: #fff;
+        padding: 12px 6px;
+        border-radius: 6px;
+    }
+
+    .consoleDesc {
+        font-size: 12px;
+    }
+
+    .gatherCon {
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0 16px;
+    }
+
+    .gatherItem {
+        height: 51px;
+        border-bottom: 1px solid #e9eaef;
+    }
+
+    .fixedBtnCon {
+        height: 62px;
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        padding: 0 12px;
+    }
+
+    .btn {
+        height: 40px;
+        font-size: 14px;
+        font-weight: 700;
+        width: 140px;
+    }
+
+    .leftBtn {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        background-color: #e6f0ff;
+        color: #0051cc;
+    }
+
+    .rightBtn {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        background-color: #0051cc;
+        color: #fff;
+    }
+
+    .btnNoAvail {
+        opacity: 0.6;
+    }
+
+    .chartLegendVal {
+        font-size: 16px;
+        line-height: 22px;
+        color: #121d3a;
+        font-family: DINAlternate-Bold;
+    }
+
+    .chartLegendKey {
+        font-size: 11px;
+        line-height: 16px;
+        color: #545968;
+    }
+
+    .legendLine {
+        margin-right: 4px;
+        width: 8px;
+        height: 2px;
+    }
+
+    .fundChartTabs {
+        padding: 8px 16px 16px;
+    }
+
+    .chartTab {
+        flex: 1;
+        padding-top: 1px;
+        height: 28px;
+        font-size: 12px;
+        line-height: 17px;
+        color: #545968;
+        font-family: system-ui, -apple-system;
+    }
+
+    .active {
+        border-radius: 14px;
+        background-color: #dee8ff;
+        color: #0051cc;
+        font-weight: var(--active-tab-weight);
+    }
+
+    .portfolioCardBottomRateDescTip {
+        width: 18px;
+        height: 18px;
+        vertical-align: bottom;
+        margin-left: 2px;
+    }
+
+    .popHeader {
+        padding: 16px 0;
+        min-height: 43px;
+        border-bottom: 1px solid #e2e4ea;
+
+        .poptitle {
+            font-size: 16px;
+            color: #121d3a;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .popClose {
+            position: absolute;
+            left: 0;
+            margin-left: 10px;
+        }
+    }
+
+    .popContent {
+        padding: 16px;
+        max-height: 60vh;
+        overflow-y: auto;
+
+        .tipTitle {
+            font-weight: bold;
+            line-height: 20px;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+    }
+}

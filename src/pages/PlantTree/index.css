@@ -1,0 +1,474 @@
+.activityContainer {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    /* opacity: 0.3;
+  transition: all 0.5s; */
+    background: linear-gradient(180deg, #df1414 0%, #ff8f5e 100%);
+}
+
+.topPart {
+    width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.topPartTitle {
+    margin: 0 auto;
+    width: 279px;
+}
+.curDistribution {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffecca;
+    line-height: 18px;
+    width: 174px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    background-size: 100% 100%;
+    padding: 5px 0;
+}
+.curDistributionNum {
+    font-size: 14px;
+    font-family: DINAlternate-Bold, DINAlternate;
+    font-weight: bold;
+    color: #fbecce;
+    line-height: 16px;
+}
+.progress {
+    width: 214px;
+    margin: 0 auto;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.31);
+    border-radius: 4px;
+    margin-top: 17px;
+}
+.progressTraker {
+    height: 8px;
+    background: linear-gradient(270deg, #fae9c2 0%, #f9de8d 100%);
+    border-radius: 4px;
+    margin-top: -1px;
+}
+.progress-text {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+    color: #fbecce;
+    line-height: 17px;
+}
+.progress-text-num {
+    font-size: 14px;
+    font-family: DINAlternate-Bold, DINAlternate;
+    font-weight: bold;
+    color: #fbecce;
+    line-height: 16px;
+}
+.treeWrapper {
+    position: relative;
+}
+.tree {
+    position: absolute;
+    top: 30px;
+    width: 280px;
+    height: 268px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tipBox {
+    width: 342px;
+    background: linear-gradient(180deg, #ffe9dd 0%, #ffffff 19%, #ffffff 100%);
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 14px 11px 11px 14px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tipBoxText {
+    font-size: 12px;
+    font-weight: 300;
+    color: #814a0d;
+    line-height: 18px;
+}
+.tipBoxBtn {
+    width: 215px;
+    padding: 12px 0;
+    background: linear-gradient(180deg, #ec4330 0%, #f25d40 44%, #e11b18 100%);
+    box-shadow: 0px 2px 10px 0px rgba(231, 47, 36, 0.48);
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 30px;
+    margin-top: 6px;
+}
+.tipBoxSwiper {
+    height: 27px;
+    width: 100%;
+    margin-top: 10px;
+}
+.tipBoxSwiperItem {
+    height: 27px;
+    width: 100%;
+    height: 27px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #8b4600;
+    line-height: 17px;
+    text-align: center;
+    padding: 5px 0;
+}
+.advisorViewWrapper {
+    width: 343px;
+    background: linear-gradient(180deg, #ffe9dd 0%, #ffffff 19%, #ffffff 100%);
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    padding: 16px;
+}
+.advisorViewHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advisorViewHeaderLogo {
+    width: 132px;
+    height: 22px;
+}
+.advisorViewHeaderPublishDate {
+    background: #f5f6f8;
+    border-radius: 6px;
+    padding: 3px 7px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #121d3a;
+    line-height: 16px;
+}
+.advisorViewContent {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.advisorViewContentLeft {
+    font-size: 14px;
+    font-weight: 400;
+    color: #121d3a;
+    line-height: 20px;
+    margin-right: 12px;
+}
+.instructionsWrapper {
+    background-color: #fff4ee;
+    padding: 18px;
+    padding-bottom: 40px;
+}
+.instructionsTitle {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8b4600;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.instructionsItem {
+    padding-left: 20px;
+    position: relative;
+}
+.instructionsIndex {
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 11px;
+    color: #974100;
+    border: 0.5px solid #974100;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.instructionsContent {
+    font-weight: 300;
+    color: #974100;
+    line-height: 18px;
+    font-size: 11px;
+}
+.makeUpCardWrapper {
+    text-align: right;
+    margin-top: -10px;
+}
+.makeUpCard {
+    font-size: 12px;
+    font-weight: 400;
+    width: 55px;
+    line-height: 17px;
+    padding: 3px 0;
+    background-color: #ef5038;
+    border-radius: 14px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+.disable {
+    color: #e2e4ea;
+    border: 1px solid #e2e4ea;
+    background-color: #fff;
+}
+.widgetWrapper {
+    position: absolute;
+    top: 263px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-left: 20px;
+}
+.inviteFriendWidget {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 19px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 41px;
+    padding-right: 6px;
+    position: relative;
+}
+.activitiesCountdown {
+    margin: 0 auto;
+    width: 279px;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    background: #ffe2b0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 400;
+    color: #58270e;
+    line-height: 16px;
+}
+.activitiesCountdown .text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #58270e;
+    line-height: 20px;
+}
+.activitiesCountdown .time {
+    width: 22px;
+    height: 22px;
+    background: #e33737;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 4px;
+}
+.redCircle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #e7493a 0%, #ce2922 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fde7bd;
+    line-height: 15px;
+    position: absolute;
+    left: -9px;
+    top: -0.5px;
+    /* padding: 9px; */
+}
+.inviteFriendMain {
+    float: right;
+    text-align: center;
+}
+.inviteFriendBtn {
+    background: linear-gradient(180deg, #fceed7 0%, #f9e19d 100%);
+    border-radius: 8px;
+    padding: 3px 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ea3e2d;
+    line-height: 15px;
+    transform: scale(0.95);
+    width: 58px;
+    margin: 0 auto;
+}
+.existInviteNum {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    transform: scale(0.9);
+    white-space: nowrap;
+    margin-top: 2px;
+}
+.ruleWidget {
+    width: 50px;
+    height: 22px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myModalContent {
+    padding: 23px 23px 28px 23px;
+}
+
+.myModalTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f8db82;
+    line-height: 28px;
+}
+.myModalText {
+    margin-top: 13px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 21px;
+}
+.myModalFillBtn {
+    width: 215px;
+    height: 45px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #fceed5 0%, #f9dd86 100%);
+    box-shadow: 0px 2px 10px 0px rgba(231, 47, 36, 0.48);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #e11c19;
+    line-height: 27px;
+    margin-top: 20px;
+}
+.myModalOutlineBtn {
+    width: 215px;
+    height: 45px;
+    box-shadow: 0px 2px 10px 0px rgba(231, 47, 36, 0.48);
+    border-radius: 25px;
+    border: 1px solid rgba(252, 238, 210, 1);
+    font-size: 18px;
+    font-weight: 500;
+    color: #fbeac3;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.ruleContent {
+    max-height: 300px;
+    overflow-y: auto;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-left: -6px;
+}
+.ruleContent::-webkit-scrollbar {
+    width: 8px;
+    display: block;
+}
+.ruleContent::-webkit-scrollbar-track {
+    background: #930300;
+    border-radius: 4px;
+    opacity: 0.2;
+}
+.ruleContent::-webkit-scrollbar-thumb {
+    background: linear-gradient(270deg, #fae9c2 0%, #f9de8d 100%);
+    border-radius: 4px;
+    display: block;
+}
+.ruleSmallHint {
+    width: 100%;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 11px;
+    transform: scale(0.7);
+    white-space: nowrap;
+}
+.customSkeleton {
+    width: 100%;
+    height: 100%;
+}
+.beforeMask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f6f8;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: #fff4ee;
+}
+.quotesContent {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #960300;
+    border-radius: 4px;
+    opacity: 0.4;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 20px;
+    position: relative;
+}
+.comma {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    z-index: -5;
+}
+.modalBtnDisable {
+    color: #e2e4ea;
+    border: 0.02rem solid #e2e4ea;
+    background: transparent;
+    opacity: 0.5;
+}
+.treePlaceHolderContent {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+}

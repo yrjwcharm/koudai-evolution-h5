@@ -1,0 +1,52 @@
+.flexRow {
+    display: flex;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_input_tel {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    height: 56px;
+    background-color: #fff;
+}
+
+.textContainer {
+    width: 80px;
+    height: 100%;
+}
+
+.inputLeftText {
+    font-size: 14px;
+    line-height: 20px;
+    color: #545968;
+}
+
+.selectBox {
+    flex: 1;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.inputText {
+    color: #121d3a;
+    font-size: 14px;
+}
+
+.input {
+    color: #545968;
+    font-size: 12px;
+    flex: 1;
+    height: 100%;
+    padding-left: 10px;
+}

@@ -1,0 +1,387 @@
+// @import '~video-react/styles/scss/video-react'; // or import scss
+.scrollWrap {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    .topBg {
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(180deg, #1e5ae7 45%, rgba(0, 81, 204, 0) 100%);
+    }
+
+    .main {
+        padding: 0 16px;
+        margin-top: -84px;
+
+        .vWrap {
+            border-radius: 8px;
+            width: 100%;
+            height: 200px;
+            position: relative;
+            margin-bottom: 12px;
+
+            :global {
+                .video-react-video,
+                .video-react,
+                .video-react-poster {
+                    border-radius: 8px;
+                    width: 100%;
+                    height: 200px;
+                }
+
+                .video-react-control-bar {
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                }
+            }
+
+            .timeHint {
+                background-color: #a0a0a0;
+                border-radius: 4px;
+                padding: 2px 4px;
+                font-size: 11px;
+                color: #ffffff;
+                line-height: 15px;
+                position: absolute;
+                bottom: 7px;
+                right: 9px;
+                z-index: 2;
+            }
+        }
+
+        .portfolioCard {
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 16px;
+        }
+
+        .portfolioCardTop {
+        }
+
+        .portfolioCardBottom {
+            padding-top: 16px;
+            display: flex;
+            justify-content: space-between;
+
+            .portfolioCardBottomChunk {
+                .portfolioCardBottomRate {
+                    font-size: 20px;
+                    font-family: DIN Alternate-Bold, DIN Alternate;
+                    color: #e74949;
+                    line-height: 28px;
+                }
+
+                .portfolioCardBottomRateDesc {
+                    font-size: 11px;
+                    color: #9aa0b1;
+                    line-height: 15px;
+                }
+            }
+        }
+
+        .portfolioCardBottomRateDescTip {
+            width: 16px;
+            height: 16px;
+            vertical-align: bottom;
+            margin-left: 2px;
+        }
+
+        .portfolioCardTitle {
+            font-size: 16px;
+            color: #121d3a;
+            line-height: 20px;
+            font-weight: bold;
+        }
+
+        .portfolioCardDesc {
+            margin-top: 6px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .portfolioCardCode {
+            font-size: 11px;
+            color: #545968;
+            line-height: 15px;
+            margin-right: 6px;
+        }
+
+        .portfolioCardTag {
+            background: #ffffff;
+            border-radius: 2px;
+            border: 1px solid #bdc2cc;
+            padding: 2px 4px;
+            margin-right: 6px;
+            font-size: 9px;
+            color: #545968;
+            line-height: 13px;
+            white-space: nowrap;
+        }
+
+        .noticeWrap {
+            margin-top: 12px;
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .noticeIcon {
+                width: 16px;
+                height: 16px;
+                margin-right: 8px;
+                vertical-align: bottom;
+            }
+
+            .noticeBtn {
+                font-size: 12px;
+                color: #e74949;
+                line-height: 15px;
+            }
+        }
+
+        .commentWrap {
+            margin-top: 12px;
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 16px;
+
+            .commentTitle {
+                font-size: 13px;
+                color: #121d3a;
+                line-height: 18px;
+            }
+
+            .commentContent {
+                margin-top: 12px;
+
+                .nick {
+                    font-size: 12px;
+                    color: #121d3a;
+                    line-height: 17px;
+                    font-weight: 500;
+                }
+
+                .commentText {
+                    font-size: 11px;
+                    color: #545968;
+                    line-height: 17px;
+                    margin-left: 3px;
+                }
+
+                .commentBtn {
+                    font-size: 11px;
+                    color: #0051cc;
+                    line-height: 15px;
+                    margin-left: 3px;
+                }
+            }
+        }
+
+        .areaChartWrap {
+            margin-top: 12px;
+            background-color: #fff;
+            border-radius: 6px;
+
+            .chartLabel {
+                padding: 16px 35px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .labelItem {
+                    text-align: center;
+
+                    .labelItemTop {
+                        font-size: 13px;
+                        font-family: DIN Alternate-Bold, DIN Alternate;
+                        font-weight: bold;
+                        line-height: 18px;
+                    }
+
+                    .labelItemBottom {
+                        font-size: 11px;
+                        color: #545968;
+                        line-height: 15px;
+                        margin-top: 3px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .labelKeyRect {
+                            width: 8px;
+                            height: 2px;
+                            margin-right: 4px;
+                        }
+                    }
+                }
+            }
+
+            .chartTabs {
+                padding: 0 44px;
+                padding-bottom: 12px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .chartTabItem {
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    font-size: 11px;
+                    line-height: 15px;
+                    white-space: nowrap;
+
+                    & + & {
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+
+        .assetDeployWrap {
+            margin-top: 12px;
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 0 16px;
+
+            .assetDeployHead {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .assetDeployTitle {
+                    font-size: 13px;
+                    color: #121d3a;
+                    line-height: 18px;
+                    padding: 12px 0;
+                    font-weight: bold;
+                }
+            }
+
+            .assetDeployBody {
+                border-top: 1px solid #e9eaef;
+                padding-right: 9px;
+            }
+        }
+
+        .introImg {
+            margin-top: 12px;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .gatherInfoWrap {
+            margin-top: 12px;
+            padding: 0 16px;
+            background-color: #fff;
+            border-radius: 8px;
+
+            .infoItem {
+                padding: 16px 0;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &:not(:last-child) ::after {
+                    position: absolute;
+                    box-sizing: border-box;
+                    content: ' ';
+                    pointer-events: none;
+                    top: -50%;
+                    right: -50%;
+                    bottom: -50%;
+                    left: -50%;
+                    border: 0 solid #dddddd;
+                    transform: scale(0.5);
+                    border-bottom-width: 1px;
+                }
+
+                .infoTitle {
+                    font-size: 12px;
+                    line-height: 17px;
+                    color: #545968;
+                }
+
+                .infoContent {
+                    font-size: 12px;
+                    line-height: 17px;
+                    color: #121d3a;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .bottomText {
+            font-size: 11px;
+            color: #9aa0b1;
+            line-height: 17px;
+            margin-top: 8px;
+        }
+    }
+
+    .popHeader {
+        padding: 16px 0;
+        min-height: 43px;
+        border-bottom: 1px solid #e2e4ea;
+
+        .poptitle {
+            font-size: 16px;
+            color: #121d3a;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .popClose {
+            position: absolute;
+            left: 0;
+            margin-left: 10px;
+        }
+    }
+
+    .popContent {
+        padding: 16px;
+        max-height: 60vh;
+        overflow-y: auto;
+
+        .tipTitle {
+            font-weight: bold;
+            line-height: 20px;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+    }
+
+    .bottomBtnWrap {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 8px 16px;
+        padding-bottom: calc(8px + constant(safe-area-inset-bottom));
+        padding-bottom: calc(8px + env(safe-area-inset-bottom));
+        z-index: 1;
+
+        .bottomBtn {
+            background: #0051cc;
+            border-radius: 6px;
+            padding: 12px 0;
+            text-align: center;
+            width: 100%;
+            font-size: 15px;
+            color: #ffffff;
+            line-height: 21px;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.con {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f6f8;
+    border-width: 0.1;
+    border-color: #fff;
+}
+
+.listWrap {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.yellow_wrap_sty {
+    background-color: #fff5e5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.yellow_sty {
+    color: #eb7121;
+    line-height: 18px;
+    font-size: 13px;
+    flex: 1;
+}
+
+.im_card_sty {
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title_sty {
+    color: #121d3a;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.desc_sty {
+    color: #9aa1b2;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.list_card_sty {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-color: #e9eaef;
+    border-bottom-width: 0.5px;
+}
+
+.point_sty {
+    position: absolute;
+    left: 28px;
+    top: -5px;
+    background-color: #e74949;
+    border-radius: 50px;
+    padding: 3px 6px;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.titleWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    overflow: hidden;
+    flex: 1;
+}

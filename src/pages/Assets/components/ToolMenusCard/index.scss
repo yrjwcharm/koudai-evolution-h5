@@ -1,0 +1,21 @@
+.ToolMenusCard {
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(170, 170, 170, 0.102);
+    flex-wrap: wrap;
+    margin: 0 16px 12px 16px;
+    border-radius: 8px;
+    padding: 16px 10px 0 10px;
+
+    .topMenuIcon {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 8px;
+    }
+
+    .menuTitle {
+        font-size: 11px;
+        font-weight: normal;
+        color: #121d3a;
+        line-height: 15px;
+    }
+}

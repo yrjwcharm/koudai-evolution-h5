@@ -1,0 +1,38 @@
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.overlayContainer {
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px 0px rgba(18, 29, 58, 0.15);
+    padding: 0 4px;
+    display: none;
+    .menuItem {
+        padding: 8px 4px;
+        font-size: 11px;
+        line-height: 16px;
+        color: #545968;
+        text-align: center;
+        --hairline-width: 0;
+        --hairline-color: #e9eaef;
+    }
+    .menuItem:first-of-type::after {
+        border-width: 0;
+    }
+    .active {
+        font-weight: 500;
+        color: #0051cc;
+    }
+}
+
+.hide {
+    display: none;
+}

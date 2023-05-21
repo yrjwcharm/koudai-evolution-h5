@@ -1,0 +1,303 @@
+.articleReadACTContainer {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    user-select: none;
+}
+.articleReadACTContainer .beforeMask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fde9d2;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: #fde9d2;
+}
+.articleReadACTContainer .part1,
+.articleReadACTContainer .part2 {
+    position: relative;
+}
+.articleReadACTContainer .part1Title {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    width: 287px;
+}
+.articleReadACTContainer .part2Subtitle {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 7px;
+    padding: 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.articleReadACTContainer .modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.articleReadACTContainer .part2SubtitleImg {
+    width: 34px;
+}
+.articleReadACTContainer .part2SubtitleText {
+    font-size: 15px;
+    font-weight: 400;
+    color: #e94a1f;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.articleReadACTContainer .modalHeaderText {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e94a1f;
+    line-height: 28px;
+    margin: 0 12px;
+}
+.articleReadACTContainer .activitiesCountdownOfArticle {
+    width: 251px;
+    background-image: url('../../image/activity/operate1-countdown-bg.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 400;
+    color: #58270e;
+    line-height: 16px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 34px;
+}
+.articleReadACTContainer .activitiesCountdownOfArticle .text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #58270e;
+    line-height: 20px;
+}
+.rewardHint {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #121d3a;
+    line-height: 17px;
+}
+.articleReadACTContainer .activitiesCountdownOfArticle .time {
+    width: 22px;
+    height: 22px;
+    background: #e33737;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 4px;
+}
+.articleReadACTContainer .part3 {
+    background-color: #f34e26;
+    padding-top: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.articleReadACTContainer .part3 .articleCard {
+    background: linear-gradient(180deg, #ffffff 0%, #ffeac6 100%);
+    border-radius: 10px;
+    border: 1px solid #fffaea;
+}
+.articleReadACTContainer .part3 .articleCardHeader {
+    padding: 0 12px;
+    text-align: center;
+    position: relative;
+}
+.articleReadACTContainer .part3 .checkIcon {
+    width: 35px;
+    height: 13px;
+}
+.articleReadACTContainer .part3 .articleCardNecktie {
+    background-image: url('../../image/activity/operate1-card-title-bg.png');
+    background-size: 100% 100%;
+    padding: 8px 0;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 22px;
+    display: inline-block;
+}
+.articleReadACTContainer .part3 .articleCardRuler {
+    font-size: 12px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 17px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.articleReadACTContainer .part3 .articleCardContent {
+    font-size: 13px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 20px;
+    margin-top: 16px;
+    padding: 0 20px;
+}
+.articleReadACTContainer .part3 .articleCardChecks {
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+.articleCardChecksQA {
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 20px;
+}
+.articleCardChecksAS {
+    margin-top: 13px;
+    display: flex;
+    align-items: flex-start;
+}
+.checkStateWrapper {
+    width: 22px;
+}
+.articleCardChecksAS .checkState {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #dfd0c8;
+    border-radius: 50%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articleCardChecksAS .checkText {
+    flex: 1;
+    font-size: 12px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 17px;
+}
+.articleReadACTContainer .part3 .articleCardCheck {
+    margin-top: 16px;
+    text-align: center;
+}
+.articleReadACTContainer .part3 .articleCardCheck > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.articleReadACTContainer .part3 .checkBox {
+    width: 35px;
+    height: 16px;
+    background: #f7cf8c;
+    border-radius: 4px;
+    text-align: center;
+    padding: 2px 0;
+}
+.articleReadACTContainer .part3 .checked {
+    background: linear-gradient(180deg, #f34e26 0%, #f34e26 100%);
+}
+.articleReadACTContainer .part3 .checkDesc {
+    font-size: 12px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 17px;
+    margin-left: 8px;
+}
+.articleReadACTContainer .part3 .articleCardBtn {
+    margin: 0 auto;
+    margin-top: 14px;
+    background-image: url('../../image/activity/operate1-btn-bg.png');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 74px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 58px;
+}
+.articleReadACTContainer .part3 .hintWrapper {
+    margin-top: 16px;
+    padding-bottom: 50px;
+}
+.articleReadACTContainer .part3 .hintHeader {
+    font-size: 11px;
+    font-weight: 500;
+    color: #ffe2b0;
+    line-height: 24px;
+}
+.articleReadACTContainer .part3 .hintContent {
+    font-size: 11px;
+    color: #ffe2b0;
+    line-height: 20px;
+}
+.articleReadACTContainer .modalContainer {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    background: linear-gradient(180deg, #ffffff 0%, #ffeac6 100%);
+    border-radius: 12px;
+    border: 1px solid #fffaea;
+}
+
+.articleReadACTContainer .modalContainer .closeIcon {
+    position: absolute;
+    right: 15px;
+    top: -30px;
+    width: 19px;
+}
+.articleReadACTContainer .modalContainer .modalContent {
+    margin-top: 16px;
+    padding-left: 36px;
+    padding-right: 24px;
+    max-height: 230px;
+    overflow: auto;
+}
+.articleReadACTContainer .modalContainer li {
+    list-style-type: disc;
+    color: #eb3f2c;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.articleReadACTContainer .modalContainer .modalContent::-webkit-scrollbar {
+    width: 8px;
+    display: block;
+}
+.articleReadACTContainer .modalContainer .modalBtn {
+    margin: 24px auto;
+    max-width: 216px;
+    text-align: center;
+    padding: 11px 0;
+    background: #f34e26;
+    border-radius: 22px;
+    border: 1px solid rgba(252, 92, 67, 1);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 22px;
+}

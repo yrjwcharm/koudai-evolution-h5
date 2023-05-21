@@ -1,0 +1,10 @@
+.fundSafeContainer {
+    background-color: #f5f6f8;
+    overflow: auto;
+    height: 100%;
+}
+
+.fundSafeContainer img {
+    display: block;
+    width: 100%;
+}

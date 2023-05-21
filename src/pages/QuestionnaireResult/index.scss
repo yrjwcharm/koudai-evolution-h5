@@ -1,0 +1,116 @@
+#QuestionnaireResult {
+    background-color: #f5f6f8;
+    padding: 16px;
+
+    .con {
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .title {
+        font-size: 16px;
+        font-family: PingFang SC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #333333;
+        line-height: 19px;
+        padding-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .left {
+        width: 14px;
+        height: 14px;
+        background-color: #f5f6f8;
+        border-radius: 7px;
+        left: -7px;
+        position: absolute;
+    }
+
+    .center {
+        border-bottom: 1.5px dashed #f5f6f8;
+        flex: 1;
+        margin: 20px 30px;
+    }
+
+    .right {
+        left: calc(100% - 7px);
+    }
+
+    .value {
+        font-size: 22px;
+        font-family: PingFang SC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: #e74949;
+        line-height: 26px;
+    }
+
+    .content {
+        margin: 0 38px;
+        font-size: 14px;
+        font-family: PingFang SC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #545968;
+        line-height: 22px;
+        margin-bottom: 49px;
+        text-align: left;
+    }
+
+    .rbutton {
+        height: 46px;
+        background: #0052cd;
+        border-radius: 6px 6px 6px 6px;
+        font-size: 14px;
+        font-family: PingFang SC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 17px;
+        margin: 30px 32px;
+    }
+
+    .openBtn {
+        height: 141px;
+        background: linear-gradient(180deg, #fff9ef 0%, #fff0d9 100%);
+        border-radius: 6px 6px 6px 6px;
+        opacity: 1;
+        margin: 0 16px;
+        padding-top: 24px;
+    }
+
+    .redBtn {
+        width: 150px;
+        height: 34px;
+        background: #f44949;
+        border-radius: 50px 50px 50px 50px;
+        opacity: 1;
+        font-size: 12px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 17px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+
+    .lightBtn {
+        font-size: 12px;
+        color: #545968;
+        line-height: 17px;
+    }
+
+    .yinhaozuo {
+        position: absolute;
+        left: 12px;
+        top: 0px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .yinhao {
+        position: absolute;
+        right: 12px;
+        bottom: 0px;
+        height: 24px;
+        width: 24px;
+    }
+}

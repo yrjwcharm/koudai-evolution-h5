@@ -1,0 +1,77 @@
+.InsuranceIntroduceContainer {
+    background-color: #f5f6f8;
+    height: 100%;
+    overflow: auto;
+}
+
+.InsuranceIntroduceContainer img {
+    display: block;
+    width: 100%;
+}
+
+.InsuranceIntroduceContainer .topBarBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background-color: #0051cc;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.topBarBox .active {
+    font-size: 15px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.topBarBox .bar {
+    width: 16px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+
+.InsuranceIntroduceContainer .titleImg {
+    display: block;
+    width: 162px;
+    height: 28px;
+    margin: 28px auto 18px;
+}
+
+.InsuranceIntroduceContainer .mediaReportBox {
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    align-items: flex-start;
+}
+
+.mediaReportBox .reportTitle {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.mediaReportBox .reportDate {
+    font-size: 12px;
+    line-height: 17px;
+    color: #9aa1b2;
+}
+
+.mediaReportBox .reportCover {
+    width: 84px;
+    height: 63px;
+    margin-left: 15px;
+    border-radius: 6px;
+}

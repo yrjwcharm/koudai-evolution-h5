@@ -1,0 +1,35 @@
+.container {
+    background-color: #fff;
+    padding: 0 22px;
+    height: 100vh;
+    overflow: auto;
+
+    .title {
+        margin-top: 27px;
+        font-size: 22px;
+        line-height: 30px;
+        color: #121d3a;
+        font-weight: 500;
+    }
+
+    .list {
+        margin-top: 48px;
+
+        .item {
+            margin-top: 24px;
+            display: flex;
+
+            .icon {
+                margin: 3px 12px 0 0;
+                width: 20px;
+                height: 20px;
+            }
+
+            .content {
+                font-size: 14px;
+                line-height: 20px;
+                color: #545968;
+            }
+        }
+    }
+}

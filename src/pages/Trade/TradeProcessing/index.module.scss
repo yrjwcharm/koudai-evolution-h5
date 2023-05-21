@@ -1,0 +1,115 @@
+.tradeProcessing {
+    background-color: #f5f6f8;
+    height: 100vh;
+    overflow: auto;
+
+    .headerStyle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+        background-color: #fff;
+
+        .headerImg {
+            width: 50px;
+            height: 50px;
+        }
+
+        .headerStatus {
+            margin: 16px 0;
+            font-size: 16px;
+            line-height: 22px;
+            color: #121d3a;
+        }
+
+        .headerAmount {
+            font-size: 12px;
+            line-height: 17px;
+            color: #545968;
+        }
+    }
+
+    .title {
+        padding: 16px 16px 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: #545968;
+    }
+
+    .processingContainer {
+        padding-left: 16px;
+
+        .processItem {
+            display: flex;
+            position: relative;
+
+            .icon {
+                margin: 16px 8px 0 0;
+                position: relative;
+                z-index: 2;
+            }
+
+            .line {
+                position: absolute;
+                top: 30px;
+                left: 7px;
+                width: 1px;
+                height: 100%;
+                background-color: #ccd0db;
+            }
+
+            .contentBox {
+                margin-right: 20px;
+                padding-left: 6px;
+                flex: 1;
+
+                .caretStyle {
+                    position: absolute;
+                    top: 8px;
+                    left: 20px;
+                    z-index: 1;
+                }
+
+                .content {
+                    padding: 14px 16px;
+                    border-radius: 6px;
+                    background-color: #fff;
+
+                    .processTitle {
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #121d3a;
+                        flex: 1;
+                    }
+
+                    .date {
+                        font-size: 11px;
+                        line-height: 16px;
+                        color: #9aa1b2;
+                        font-family: DIN-Regular;
+                    }
+
+                    .moreInfo {
+                        margin-top: 6px;
+                        padding-left: 16px;
+                        font-size: 12px;
+                        line-height: 22px;
+                        color: #545968;
+                    }
+                }
+            }
+        }
+    }
+
+    .finishBtn {
+        margin: 32px 40px 40px;
+        width: calc(100% - 80px);
+        background-color: #0051cc;
+        border: 0;
+        border-radius: 6px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #fff;
+    }
+}

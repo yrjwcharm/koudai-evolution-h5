@@ -1,0 +1,244 @@
+.PersonalAnnualReport {
+    height: 100%;
+    overflow: hidden;
+}
+
+.reportMain {
+    height: 100%;
+    color: #ffffff;
+    font-size: 48px;
+    overflow: hidden;
+    user-select: none;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.notLongContent {
+    position: relative;
+    height: 100%;
+}
+.slideIcon {
+    position: absolute;
+    bottom: 0.84rem;
+    bottom: calc(24px + constant(safe-area-inset-bottom));
+    bottom: calc(24px + env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+.slideIconImg {
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.logoIcon {
+    position: absolute;
+    bottom: 0.54rem;
+    bottom: calc(4px + constant(safe-area-inset-bottom));
+    bottom: calc(4px + env(safe-area-inset-bottom));
+    left: 20px;
+    z-index: 2;
+    display: inline-block;
+    font-size: 12px;
+}
+.reportLogoImg {
+    width: 72px;
+    height: 21px;
+    object-fit: cover;
+}
+.longPageContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.4rem;
+}
+.longPageTop {
+    position: relative;
+    /* display: flex; */
+}
+.longPageTopImg,
+.longPageBottomImg {
+    width: 100%;
+    user-select: none;
+    -webkit-touch-callout: none;
+    pointer-events: none;
+    object-fit: contain;
+    display: block;
+}
+.longPageUserInfo {
+    position: absolute;
+    /* z-index: 1; */
+    top: 0.44rem;
+    left: 0.44rem;
+    display: flex;
+    align-items: center;
+}
+
+.longPageAvatar {
+    width: 0.88rem;
+    height: 0.88rem;
+    border-radius: 100%;
+}
+.longPageText {
+    margin-left: 10px;
+}
+.longPageName {
+    font-size: 16px;
+    font-weight: 500;
+    color: #121d3a;
+    line-height: 22px;
+}
+.longPageDesc {
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #545968;
+    line-height: 14px;
+}
+.longPageTopBtns {
+    position: absolute;
+    bottom: 0.4rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.longPageTopBtn {
+    width: 2.84rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.shareImg {
+    color: #545968;
+    border: 1px solid #545968;
+    background: #ffffff;
+}
+.shareApp {
+    color: #ffffff;
+    background: #eb7121;
+    margin-left: 0.22rem;
+    position: relative;
+}
+.btnHint {
+    position: absolute;
+    right: 0;
+    top: -0.18rem;
+    width: 0.86rem;
+    height: 0.36rem;
+}
+
+.longPageTopQRCode {
+    position: absolute;
+    right: 0.64rem;
+    bottom: 1.6rem;
+    width: 0.84rem;
+    height: 0.84rem;
+}
+
+.longPageBottom {
+    margin-top: 0.24rem;
+    position: relative;
+    /* display: flex; */
+}
+.longPageBottomBtnContainer {
+    position: absolute;
+    bottom: 0.4rem;
+    width: 100%;
+    padding: 0 1.04rem;
+}
+.longPageBottomBtn {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #0051cc;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0051cc;
+    line-height: 20px;
+}
+
+.getPoint {
+    width: 6.3rem;
+    margin: 0 auto;
+    margin-top: 0.32rem;
+}
+.getPointHint {
+    border-radius: 4px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgba(247, 170, 69, 0.5);
+}
+.getPointHintBg {
+    background: #ffffff;
+    opacity: 0.62;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 4px;
+}
+.getPointHint span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #eb7121;
+    line-height: 20px;
+    z-index: 1;
+}
+.getPointHintBtn {
+    border-radius: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    z-index: 1;
+    width: 76px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getPointHintBtn.notGetPoint {
+    background-color: #ff7d41;
+    color: #fff;
+}
+.getPointHintBtn.gotPoint {
+    background-color: #fff;
+    color: #ff7d41;
+    border: 1px solid rgba(255, 125, 65, 0.5);
+    font-weight: bold;
+}
+.getPointContent {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #545968;
+    line-height: 17px;
+}
+.safearea {
+    height: calc(24px + constant(safe-area-inset-bottom));
+    height: calc(24px + env(safe-area-inset-bottom));
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}

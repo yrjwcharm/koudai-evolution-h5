@@ -1,0 +1,25 @@
+.licensesContainer {
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 14px 20px 20px;
+}
+
+.licensesContainer .title {
+    font-size: 14px;
+    line-height: 22px;
+    color: #121d3a;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.licensesContainer .title:first-of-type {
+    margin-top: 0;
+}
+
+.licensesContainer img {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #f5f6f8;
+}

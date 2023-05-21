@@ -1,0 +1,51 @@
+.topFixedBox {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 110;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 0.5px solid #ededed;
+    padding: 0 16px 0 8px;
+    display: flex;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        filter: blur(1px);
+        z-index: 1;
+    }
+    .wrap {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img {
+        width: 60%;
+        min-width: 250px;
+        max-width: 400px;
+    }
+    .downloadBtn {
+        width: 88px;
+        height: 32px;
+        background-color: #0051cc;
+        border-radius: 16px;
+        font-size: 13px;
+        line-height: 32px;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        // padding-top: 7px;
+        box-sizing: border-box;
+        flex-shrink: 0;
+    }
+}

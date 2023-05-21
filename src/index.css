@@ -1,0 +1,241 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 取消input上的默认样式 */
+input[type='button'] {
+    -webkit-appearance: none;
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+html,
+body {
+    background: #f5f6f8;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #121d3a;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    -webkit-touch-callout: none;
+    overflow: auto;
+}
+
+#root,
+.AppRouter {
+    height: 100%;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #80899b !important;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #80899b !important;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #80899b !important;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #80899b !important;
+}
+
+.defaultFlex {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexEnd {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexColumn {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexCenter {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingBg {
+    display: block;
+    width: 100%;
+}
+
+#root .video-react .video-react-big-play-button {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background: none;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#root .video-react .video-react-big-play-button::before {
+    content: '';
+    background-image: url('./image/icon/play-circle-fill.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.ellipsisLine {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: var(--line-num);
+    -webkit-box-orient: vertical;
+}
+
+[class*='hairline'] {
+    position: relative;
+}
+
+[class*='hairline']::after {
+    position: absolute;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    border: 0 solid #e2e4ea;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    border-width: var(--hairline-width);
+    border-color: var(--hairline-color);
+}
+
+/* 2倍屏 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    [class*='hairline']::after {
+        width: 200%;
+        height: 200%;
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5);
+        border-radius: calc(var(--hairline-radius) * 2);
+    }
+}
+
+/* 3倍屏 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    [class*='hairline']::after {
+        width: 300%;
+        height: 300%;
+        -webkit-transform: scale(0.33, 0.33);
+        transform: scale(0.33, 0.33);
+        border-radius: calc(var(--hairline-radius) * 3);
+    }
+}
+
+.hairline--top::after {
+    border-top-width: 1px;
+}
+
+.hairline--right::after {
+    border-right-width: 1px;
+}
+
+.hairline--bottom::after {
+    border-bottom-width: 1px;
+}
+
+.hairline--left::after {
+    border-left-width: 1px;
+}
+/*去除滚动条*/
+::-webkit-scrollbar {
+    display: none;
+}
+@supports (bottom: env(safe-area-inset-bottom)) {
+    body,
+    footer {
+        padding-bottom: constant(safe-area-inset-bottom);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}

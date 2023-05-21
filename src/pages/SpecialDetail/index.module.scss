@@ -1,0 +1,392 @@
+.container {
+    background-color: #f5f6f8;
+    .topBgWrap {
+        height: 200px;
+        position: relative;
+        .topBg {
+            height: 200px;
+            width: 100%;
+        }
+        .topTitle {
+            position: absolute;
+            left: 24px;
+            top: 25px;
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 22px;
+            font-weight: bold;
+            z-index: 2;
+        }
+        .topUpdTime {
+            position: absolute;
+            left: 24px;
+            font-size: 10px;
+            color: #ffffff;
+            line-height: 14px;
+            z-index: 2;
+        }
+        .topBgMask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 138px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0) 100%);
+            z-index: 1;
+        }
+    }
+    .main {
+        margin: 0 16px;
+        margin-top: -28px;
+
+        .selectedComments {
+            padding: 12px;
+            border-radius: 6px;
+            background-color: #fff;
+            position: relative;
+            z-index: 2;
+            .commentCardHeader1 {
+                font-size: 13px;
+                color: #121d3a;
+                line-height: 18px;
+                margin-bottom: 8px;
+                font-weight: bold;
+            }
+            .commentCardHeader2 {
+                display: flex;
+                align-items: center;
+                margin-bottom: 6px;
+                .avatar {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 8px;
+                    border-radius: 50%;
+                }
+                .nickName {
+                    font-size: 12px;
+                    color: #121d3a;
+                    line-height: 17px;
+                    font-weight: bold;
+                }
+            }
+            .commentCardContent {
+                padding-left: 16px;
+                font-size: 13px;
+                color: #545968;
+                line-height: 20px;
+                position: relative;
+                .commentCardQuates {
+                    position: absolute;
+                    top: 2px;
+                    left: 0;
+                    width: 12px;
+                    height: 12px;
+                }
+                .expandBtn {
+                    font-size: 11px;
+                    color: #0051cc;
+                    line-height: 15px;
+                    margin-left: 3px;
+                    position: absolute;
+                    right: 0;
+                    bottom: 1px;
+                }
+            }
+        }
+        .banner {
+            margin-top: 12px;
+            height: 60px;
+            border-radius: 6px;
+        }
+        .tabsWrap {
+            padding-top: 12px;
+            display: flex;
+            background-color: #f5f6f8;
+            width: 100%;
+            .tabItem {
+                padding-bottom: 8px;
+                margin-right: 24px;
+                span {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .tabItemUnderline {
+                    width: 12px;
+                    height: 2px;
+                    border-radius: 1px;
+                    background-color: #121d3a;
+                    margin: 0 auto;
+                    margin-top: 2px;
+                }
+            }
+        }
+        .tabCard {
+            margin-bottom: 12px;
+            background: #ffffff;
+            border-radius: 6px;
+            padding: 0 12px;
+            .prdTabs {
+                display: flex;
+                align-items: center;
+                padding-bottom: 12px;
+                overflow-x: auto;
+                .prdTab {
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    margin-right: 8px;
+                    font-size: 11px;
+                    line-height: 15px;
+                    white-space: nowrap;
+                }
+            }
+            .prodTabCards {
+                // padding-bottom: 12px;
+            }
+            .articleCard {
+                display: flex;
+                align-items: center;
+                padding: 16px 4px;
+
+                .articleLeft {
+                    flex: 1;
+                    .articleTitle {
+                        font-size: 14px;
+                        color: #121d3a;
+                        line-height: 20px;
+
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        overflow-wrap: break-word;
+                        word-break: break-all;
+                        white-space: normal;
+                        overflow: hidden;
+                    }
+                    .articleDesc {
+                        margin-top: 12px;
+                        font-size: 12px;
+                        color: #9aa1b2;
+                        line-height: 17px;
+                    }
+                }
+                .articleRight {
+                    height: 70px;
+                    width: 100px;
+                    margin-left: 12px;
+                }
+            }
+            .commentCard {
+                display: flex;
+                padding: 10px 0;
+                .commentItemAvatar {
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    margin-right: 8px;
+                }
+                .commentCardMain {
+                    flex: 1;
+                    .commentCardHeader {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .commentNick {
+                        font-size: 12px;
+                        color: #545968;
+                        line-height: 17px;
+                    }
+                    .commentRight {
+                        .commentLikeNum {
+                            font-size: 11px;
+                            font-family: DIN-Regular, DIN;
+                            color: #545968;
+                            line-height: 11px;
+                        }
+                        .commentLikeIcon {
+                            width: 16px;
+                            height: 16px;
+                            vertical-align: bottom;
+                            margin-left: 4px;
+                        }
+                    }
+                    .commentCardContent {
+                        font-size: 13px;
+                        color: #121d3a;
+                        line-height: 20px;
+                        margin-top: 8px;
+                    }
+                    .commentCardDesc {
+                        margin-top: 8px;
+                        .commentDate {
+                            font-size: 11px;
+                            color: #9aa0b1;
+                            line-height: 17px;
+                        }
+                    }
+                }
+            }
+            .cardMore {
+                padding-top: 8px;
+                padding-bottom: 12px;
+                text-align: center;
+                font-size: 10px;
+                color: #9aa0b1;
+                line-height: 14px;
+            }
+            .emptyWrite {
+                color: #0051cc;
+                font-size: 12px;
+            }
+            .emptyDesc {
+                margin-top: 5px;
+                color: #969696;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+    }
+}
+.loadingContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testPanel {
+    margin-top: 10px;
+    font-size: 12px;
+    .panelHeader {
+        width: 100%;
+        height: 32px;
+        background-color: rgb(254, 237, 211);
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        color: #a56f27;
+    }
+    .flexline {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .testBtnWrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: transparent;
+        color: #a56f27;
+    }
+    .docIcon {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+    }
+    .moreIcon {
+        width: 10px;
+        height: 10px;
+
+        margin-left: 4px;
+    }
+    .panelContent {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        background-color: #fff;
+        padding: 10px 0;
+        .testItem {
+            height: 32px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            position: relative;
+            font-size: 13px;
+            .questionWrap {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .listsign {
+                background-color: #a56f27;
+                height: 4px;
+                width: 4px;
+                border-radius: 2px;
+                position: absolute;
+            }
+            .question {
+                margin-left: 8px;
+                color: #545968;
+            }
+            .answer {
+                color: #121d3a;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.testTipWrap {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .testLine {
+        height: 1px;
+        width: 100%;
+        background-color: #bdc2cc;
+        z-index: 0;
+    }
+
+    .testTip {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        white-space: nowrap;
+        vertical-align: middle;
+        // height: 100%;
+        transform: translateX(-50%) translateY(-50%);
+        color: #bdc2cc;
+        font-size: 11px;
+        padding: 0 9px;
+        background-color: rgb(242, 244, 246);
+    }
+}
+
+.emptyTestWrap {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 230px;
+    margin-bottom: 12px;
+
+    .emptyTest_img {
+        width: 120px;
+        height: 64px;
+    }
+    .emptyTest_title {
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: bold;
+        color: #121d3a;
+    }
+    .emptyTest_desc {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        color: #121d3a;
+    }
+}

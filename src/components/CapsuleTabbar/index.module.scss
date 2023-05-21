@@ -1,0 +1,40 @@
+.boxWrap {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    scrollbar-width: none;
+    /* firefox */
+    -ms-overflow-style: none;
+
+    /* IE 10+ */
+    &::-webkit-scrollbar {
+        display: none;
+        /* Chrome Safari */
+    }
+}
+
+.tabBox {
+    margin-right: 12px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.tabText {
+    font-size: 12px;
+    line-height: 17px;
+    color: #121d3a;
+}
+
+.activeText {
+    color: #0051cc;
+    font-weight: bold;
+}
+
+.moreText {
+    margin-right: 4px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #0051cc;
+}

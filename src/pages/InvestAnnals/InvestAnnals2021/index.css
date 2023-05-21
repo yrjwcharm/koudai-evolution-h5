@@ -1,0 +1,7 @@
+.InvestAnnals2022 .adm-image + .adm-image {
+    margin-top: -4px !important;
+}
+
+.InvestAnnals2022 {
+    overflow: auto;
+}

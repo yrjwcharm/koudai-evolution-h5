@@ -1,0 +1,208 @@
+.productList {
+    .leftPart {
+        margin-right: 12px;
+        width: 64px;
+        height: 64px;
+    }
+    .rankIcon {
+        margin-right: 8px;
+        padding: 1px 1px 0 0;
+        width: 24px;
+        height: 24px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-size: 11px;
+        line-height: 16px;
+        color: #bdc2cc;
+        font-family: DINAlternate-Bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profitBox {
+        margin-right: 12px;
+        border-radius: 64px;
+        width: 64px;
+        height: 64px;
+    }
+    .profit {
+        font-size: 14px;
+        line-height: 20px;
+        color: #121d3a;
+        font-family: DINAlternate-Bold;
+    }
+    .bigProfit {
+        font-size: 16px;
+        line-height: 22px;
+        color: #121d3a;
+        font-family: DINAlternate-Bold;
+    }
+    .smProfit {
+        font-size: 12px;
+        line-height: 17px;
+        color: #121d3a;
+        font-family: DINAlternate-Bold;
+    }
+    .profitLabel {
+        font-size: 10px;
+        line-height: 14px;
+        color: #9aa1b2;
+        white-space: nowrap;
+    }
+    .outBox {
+        padding: 12px;
+        border-radius: 6px;
+        --hairline-width: 1px;
+        --hairline-color: transparent #e8e8e8 #e8e8e8;
+        --hairline-radius: 6px;
+        overflow: hidden;
+        background: linear-gradient(180deg, #f1f6ff 0%, #ffffff 68%);
+    }
+    .name {
+        font-size: 12px;
+        line-height: 17px;
+        color: #121d3a;
+        font-weight: 600;
+    }
+    .label {
+        font-size: 11px;
+        line-height: 16px;
+        color: #9aa1b2;
+    }
+    .tagBox {
+        margin-right: 8px;
+        padding: 2px 4px;
+        --hairline-radius: 2px;
+        --hairline-width: 1px;
+        --hairline-color: #bdc2cc;
+        font-size: 9px;
+        line-height: 13px;
+        color: #545968;
+        white-space: nowrap;
+    }
+    .reasonBox {
+        margin-top: 12px;
+        padding: 8px;
+        border-radius: 4px;
+        background-color: #f5f6f8;
+    }
+    .reasonIcon {
+        margin-right: 4px;
+        width: 8px;
+        height: 8px;
+    }
+    .ratioLabelBox {
+        margin-top: 12px;
+        width: 64px;
+        height: 64px;
+    }
+    .ratioLabel1 {
+        border-radius: 42px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        width: 42px;
+        height: 42px;
+        background-color: rgba(231, 73, 73, 0.1);
+        font-size: 8px;
+        line-height: 12px;
+        color: #e74949;
+    }
+    .ratioLabel2 {
+        border-radius: 33px;
+        position: absolute;
+        top: 17px;
+        right: 0;
+        z-index: 2;
+        width: 33px;
+        height: 33px;
+        background-color: rgba(231, 73, 73, 0.1);
+        font-size: 7px;
+        line-height: 11px;
+        color: #e74949;
+    }
+    .ratioLabel3 {
+        border-radius: 32px;
+        position: absolute;
+        left: 9px;
+        bottom: 0;
+        z-index: 1;
+        width: 32px;
+        height: 32px;
+        background-color: rgba(231, 73, 73, 0.1);
+        font-size: 7px;
+        line-height: 11px;
+        color: #e74949;
+    }
+    .cardDesc {
+        font-size: 15px;
+        line-height: 21px;
+        color: #121d3a;
+        font-weight: 500;
+    }
+    .goldenTagBox {
+        padding: 2px 6px;
+        border-radius: 2px;
+        background-color: rgba(246, 226, 195, 0.8);
+    }
+    .goldenTagText {
+        font-size: 10px;
+        line-height: 14px;
+        color: #b38051;
+    }
+    .cardBtn {
+        margin-top: 12px;
+        border-radius: 50px;
+        width: 160px;
+        height: 34px;
+        background-color: #f44949;
+    }
+    .cardBtnText {
+        font-size: 12px;
+        line-height: 17px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .managerDesc {
+        margin-top: 8px;
+        font-size: 10px;
+        line-height: 14px;
+        color: #121d3a;
+    }
+    .redTagBox {
+        margin-left: 4px;
+        padding: 2px;
+        border-radius: 4px;
+        border-bottom-left-radius: 0;
+        background-color: #e74949;
+        font-size: 8px;
+        line-height: 12px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .tagText {
+        font-size: 9px;
+        line-height: 13px;
+        color: #545968;
+    }
+    .mainRowWrap {
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+    }
+    .showButton {
+        position: absolute;
+        top: 20px;
+        right: 4px;
+        background-color: #ff7d41;
+        border-radius: 103px;
+        padding: 3px 12px;
+    }
+    .showButtonText {
+        font-size: 11px;
+        line-height: 15px;
+        color: #fff;
+    }
+}
